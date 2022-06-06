@@ -18,7 +18,7 @@ $(document).ready(function() {
     $("#music").val('');
     $("#movie").val('');
     $("#color").val('');
-    
+
     $('#output').show();
   });
 });
