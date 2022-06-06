@@ -9,6 +9,10 @@ $(document).ready(function() {
     const combinedFav = [animal, music, movie, color];
     console.log(combinedFav);
     $('#output').text(combinedFav);
+    $("#animal").val('');
+    $("#music").val('');
+    $("#movie").val('');
+    $("#color").val('');
   });
 });
 
